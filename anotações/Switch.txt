@@ -1,0 +1,15 @@
+Switch
+	
+	exemplo:
+		$cor = 'branco'
+		
+		switch ($cor) {
+		    'azul' {'Você escolheu azul'; break}
+		    'preto' {'Você escolheu preto'; break}
+		    'rosa' {'Você escolheu rosa'; break}
+		    'amarelo' {'Você escolheu amarelo'; break}
+		    'verde' {'Você escolheu verde'; break}
+		    default {'Você escolheu branco'; break}
+		}
+	- Verifica qual cor está na variável
+		- default seria o padrão, parecido com um else

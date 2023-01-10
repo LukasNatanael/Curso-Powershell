@@ -1,0 +1,9 @@
+Comentários
+
+	- # Comentário comum
+	
+	- <#
+	  Comentário
+	  	de
+	  multilinhas
+	  #>

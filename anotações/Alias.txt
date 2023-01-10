@@ -1,0 +1,31 @@
+Alias
+	- get-command *-alias
+	- gcm *-alias
+	
+	- get-alias
+		- mostra todas as "abreviações" dos comandos.
+		
+	- new-alias -name {nome_do_alias} -value {comando_a_ser_abreviado}
+		- cria um novo alias
+	
+	- Remove-Item alias: {nome_do_alias_a_ser_removido}	
+		- remove o alias criado por você.
+		
+	- set-alias
+		- cria ou altera um apelido.
+		
+	- get-alias -Definition {comando}
+		- mostra os alias do comando, caso existam.
+		
+	- export-alias -path {caminho} -as {opções}
+		- salva seu alias no lugar escolhido.
+		- opções: csv, script
+	
+	- export-alias -path {caminho} -name {nome_do_alias}
+		- salva apenas os alias escolhidos.
+		
+	- import-alias -path {caminho}
+		- importa todos seus alias.
+	
+	
+	

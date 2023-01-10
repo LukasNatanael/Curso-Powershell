@@ -1,0 +1,20 @@
+Operadores de comparação
+	- Naturalmente o powershell não diferencia maiúscula de minúscula.
+	- 'c' Ativa o case sentitive, ou seja, a diferenciação de maiúscula e minúscula.
+		- ex: input: 'Lukas' -ceq 'lukas'; output: False
+		
+	- 'i' Ativa o case insensitive, ou seja, não diferencia maiúscula e minúscula.
+		- ex: input: 'Lukas' -ieq 'lukas'; output: True
+		
+	- Igual
+		-eq
+	- Diferente
+		-ne
+	- Menor que
+		-lt
+	- Menor ou igual a
+		-le
+	- Maior do que
+		-gt
+	- Maior ou igual
+		-ge

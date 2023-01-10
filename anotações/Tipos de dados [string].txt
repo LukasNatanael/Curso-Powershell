@@ -1,0 +1,26 @@
+Tipos de dados
+	- get-item {nome_do_arquivo}
+		- retorna informações sobre o arquivo.
+		- ex: última edição, tamanho e nome do arquivo.
+	
+	- ${nome_da_variável}
+		- $ é usado para definir uma variável.
+	
+	- ${variável} | Get-Member
+		- retorna os membros de uma variável.
+	- ${variável} | Get-Member -MemberType {ctrl+espaço_para_ver_as_opções}
+		- retorna membros específicos de uma variável.
+	
+	- ${variavel}.{ctrl+espaço_para_ver_as_opções}
+		- retorna determinada informação sobre a variável
+	
+	:: acessar propriedade ou métodos estáticos
+	. acessar propriedade ou métodos públicos
+	
+	- [string]::join("-", @('instituto', 'de', 'scripts'))
+		- acessa propriedade ou métodos estáticos
+		- recebe dois parâmetros: 
+			- "-", o que vai separar as strings.
+			- @() strings a serem juntadas (vão dentro dos parênteses).
+	-[string]::format("{0} {1} {2}", @('Instituto', 'de', 'Scripts'))
+		- faz praticamente a mesma coisa que join apenas muda a forma de fazer.

@@ -1,0 +1,24 @@
+Variáveis
+	- Podem ser definidas igual em C++
+		- [tipo_da_variável] $nome_da_variével = valor da variável
+		- ex: 
+			- [string] $nome = 'Lukas'
+			- [int] $idade = 18
+		
+	- ou podem ser definidas igual em Python
+		- ex:
+			- $nome = 'Lukas'
+			- $idade = 18
+	
+Nome das variáveis
+	- Pode ser utilizado qualquer nome, com exeção dos caracteres especiais
+		- !, @, #, $, %, &, *, (), [], >, <
+
+	- Para utilizar alguns caracteres especiais precisamos das {}
+		- ex:
+			- ${>nome} = 'Lukas'
+		
+CMDLET para Variáveis
+	- gcm *-variable
+		- retorna todas as variáveis que terminam em 'variable'
+	

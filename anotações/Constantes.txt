@@ -1,0 +1,9 @@
+Constantes
+	- São 'váriaveis' que não podem ser alteradas.
+	
+	- Set-Variable -name PI -value ([math]::PI) -option ReadOnly
+		- $PI
+		- Cria uma variável com o nome PI e da o valor de PI para ela, que não pode ser alterada, mas pode ser deletada.
+	
+	- Set-Variable -name curso -value 'Curso de PowerShell 5' -option Constant
+		- $curso

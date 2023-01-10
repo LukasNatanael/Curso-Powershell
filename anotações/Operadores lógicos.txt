@@ -1,0 +1,17 @@
+Operadores lógicos
+	
+	-and
+		- Input: (3 -eq 3) -and ( 4 -eq 4); Output: True	
+			- Retorna True se ambos forem verdade	
+	-or
+		- Input: (3 -eq 3) or (3 -gt 4); Output: True
+			- Retorna True se um deles forem verdade
+	-not ou !
+		- Input: -not 3 -eq 3; Output: False
+			- Sem o -not retornaria True
+			- Inverte os valores boleanos
+			
+		- Input: ! 3 -eq 3; Output:False
+			- Sem o ! retornaria True
+			- Inverte os valores boleanos
+

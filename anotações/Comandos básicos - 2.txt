@@ -1,0 +1,14 @@
+Get-host:
+	- Obter informações do console.
+write-host:
+	- escreve na tela.
+clear-host:
+	- limpa o console.
+get-childitem:
+	- listar o conteúdo de uma pasta.
+set-location:
+	navega entre as pastas.
+get-command:
+	- lista os cmdlets.
+get-help:
+	- obtém ajuda dos cmdlets.

@@ -1,0 +1,9 @@
+HashTabel
+	- Uma tabela.
+	
+	- $ht = @{server=$true; connect=$false}
+		- cria uma tabela com as chaves 'server' e 'connect' com os valores $true e $false respectivamente
+		- para acessar os valores dentro das chaves basta fazer $variavel.chave
+			- ex: input: $ht.server; output: true
+		- if ($ht.connect -eq $True) {'Servidor conectado!'} else {'Servidor desconectado!'}
+			- Verifica se o servidor está ou não conctado.

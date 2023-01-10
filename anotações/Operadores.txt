@@ -1,0 +1,12 @@
+Operadores
+º Replace
+	- (Get-Content .\dados.txt) -replace "(Lukas)", "secreto" >> novo.txt  
+		- abre o arquivo dados.txt e substitui todas as strings "Lukas" por "secreto" e envia para um novo   				arquivo.txt.
+
+º Contains
+	- Verifica se contém determinada coisa dentro do arquivo.
+		- $matriz -contain 7
+
+º is
+	- Verifica se as tal coisa é igual a outra 
+º as

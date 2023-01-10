@@ -1,0 +1,16 @@
+Sufixos de Multiplicadores Numéricos
+	- kb 
+		kilobyte
+		1kb -> 1024kb
+	- mb
+		megabyte
+		1mb
+	- gb
+		gigabyte
+		1gb
+	- tb
+		terabyte
+		1tb
+	- pb
+		pentabyte
+		1pb

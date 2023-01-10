@@ -1,0 +1,29 @@
+Tipos de dados
+	- [int]
+	- [single] -> uma representação do float
+	- [string]
+	
+	- $_
+		- refere-se a linha atual de código, igual o "self" em Python.
+		
+	- foreach {$_ "comando"}
+		- para cada item, caractere atuais, execute {comando}.
+	
+	- [int[]][char[]]"HAL"
+		- transforma "HAL" em caracteres e transforma esses caracteres em números inteiros da tabela ASCII.
+	
+	- [int[]][char[]]"HAL" | foreach {$_ + 1}
+		- para cada item da linha atual ele soma +1. 
+		
+	- [string[]][char[]]([int[]][char[]]"HAL" | foreach {$_ + 1})
+		- converte "HAL" para caractere, de caractere ele transforma em string novamente somando +1 ao resultado.
+		## Leia o código de tras para frente
+		
+	- [datetime]"dia desejado"
+		## A data deve estar em formato americano.
+		- retorna dia da semana, mês, ano e hora que irá cair tal data.
+	- [datetime]::now
+		## A data deve estar em formato americano.
+		- retorna dia da semana, mês, ano e hora atual.	
+	- [datetime]"07/13/2022" - [datetime]::now
+		- retorna quanto tempo falta para o meu aniversário.

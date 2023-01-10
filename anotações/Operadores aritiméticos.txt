@@ -1,0 +1,14 @@
+Operadores aritiméticos
+	
+	- Subtração
+		-
+	- Adição
+		+	
+	- Multiplicação
+		*
+	- Divisão
+		/
+	- Módulo ou resto
+		%
+	- Agrupamento
+		()

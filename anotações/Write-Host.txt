@@ -1,0 +1,18 @@
+Write-Host
+	- ex: Write-Host (get-date)
+		- colocar o comando entre parenteses () o faz ser executado primeiro
+		- ele pega a data e ai sim mostra na tela
+	
+	-ForegroundColor {ctrl + espaço para ver as cores disponíveis} "Lukas"
+		- escreve a string na cor desejada
+		-F abreviação de ForegroundColor
+	
+	-BackgroundColor {ctrl + espaço para ver as cores disponíveis} "Lukas"
+		- escreve a string com o fundo na cor desejada
+		-B abreviação de BackgoundColor
+	
+	- "Lukas" "Natanael" -Separator "_"
+		- separa as strings com underline, ou com o que você quiser
+	
+	- "Lukas" -NoNewline
+		- impede que seja criada uma nova linha

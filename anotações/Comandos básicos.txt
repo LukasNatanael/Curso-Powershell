@@ -1,0 +1,37 @@
+Comandos básicos
+	- get-help
+		-Exibe a ajuda sobre cmdlets e conceitos do Windows PowerShell.
+		
+	- host
+		- tudo que é sobre o shell possui host.
+		- ex: get-host, write-host
+	
+	- get-{comando}
+		- retorna informações sobre determinada coisa.
+	
+	- get-host
+		- obter informações sobre o shell.
+	
+	- get-childitem
+		- mostra conteúdo de uma pasta.
+	
+	- setlocation {caminho}
+		- vai até o caminho desejado.
+	- setlocation {comando}
+		- .   -> pasta atual
+		- ..  -> retornar
+		- /\  -> raiz
+	
+	- get-command
+		- retorna todos os cmdlet (command let).
+	
+	- get-command {comando}
+		- retorna informações sobre o comando desejado.
+	
+	- get-help {comando}
+		- te da informações sobre o comando solicitado.
+	- get-help {comando} -detailed
+		- te da informações detalhadas sobre o comando solicitado.
+	- get-help {comando} - showwindow		
+		- mostra as informações do comando em uma interface gráfica.
+	

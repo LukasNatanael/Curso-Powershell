@@ -1,0 +1,10 @@
+Caracteres de escape
+	- Crase (`)
+	
+	- `0 -> nulo
+	- `a -> alerta
+	- `b -> apagar uma letra (backspace)
+	- `n -> nova linha
+	- `r -> retorno de carro
+	- `t -> tab
+	- `v -> tab vertical

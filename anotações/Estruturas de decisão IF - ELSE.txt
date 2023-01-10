@@ -1,0 +1,14 @@
+Estruturas de decisão IF - ELSE
+
+if (comparação) {bloco_de_código} else {bloco_de_código}
+ex:
+	if (1 -lt 5) {'1 é menor que 5'}  else {'5 não é menor que 1'}
+	
+	 if (Get-Process notepads) {'Programa aberto'} else {'Programa fechado'}
+	 	- Get-Process lista todos os processos abertos, a menos que você expecifique um 
+	 	
+select-string -path {pasta_do_arquivo} -Pattern '{texto_procurado}'
+	- procura um texto dentro de um arquivo desejado 
+	
+test-path
+	- verifica se um arquivo ou pasta existe ou não

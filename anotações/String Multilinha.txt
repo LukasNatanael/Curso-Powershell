@@ -1,0 +1,12 @@
+String Multilinha
+	- @"
+	{O texto vai aqui}
+	"@
+	
+	- Permite adicionar código de outras linguagens
+	- ex:
+		@"
+		n = 'Lukas'
+		print(f'Seu nome é {n}')
+		input()
+		"@ | Out-File -FilePath nome.py -Encoding utf8

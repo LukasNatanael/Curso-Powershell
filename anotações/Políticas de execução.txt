@@ -1,0 +1,23 @@
+Políticas de execução 
+	- Restricted
+		- Padrão, permite usar o shell, mas bloqueia scripts
+	- AllSigned
+		- Permite executar scripts que seja assinado por um fornecedor confiável,
+		mesmo os scripts criados no próprio computador.
+	- RemoteSigned
+		- Permite executar scripts que mas requer que sejam assinados por um fornecedor confiável, execeto os criados pelo próprio computador.
+	- Unrestricted
+		- Scripts desconhecidos podem serem executados, mas adverte o usuário antes de 
+		executar um script baixado pela internet.
+	- Bypass
+		- Nada é bloqueado e não há avisos ou solicitações.
+	- Undefined
+		- Não há diretiva de execução definida.
+		
+	- get-executionpolicy
+		- retorna a politica de execução atual.
+	
+	- get-executionpolicy -list
+		- retorna a lista de politicas de execução.
+	
+	- Set-ExecutionPolicy -ExecutionPolicy {opções} -Scope {opções} -force

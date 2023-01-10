@@ -1,0 +1,13 @@
+Estruturas de repetição
+
+	While
+		- while (ação) {executar_ação}
+			- ex:
+				$n = ''
+				while ($n -ne 'Lukas') {
+				'Seu nome por favor!';
+				 $n = read-host"Nome"}
+		- do-while
+			ex:
+				$n = ''
+				do {'Seu nome por favor!'; $n = read-host "Nome:"} while ($n -ne 'Lukas')

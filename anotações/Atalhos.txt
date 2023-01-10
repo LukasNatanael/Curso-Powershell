@@ -1,0 +1,8 @@
+Atalhos
+	- ctrl + backspace \ ctrl + delete
+		- deleta uma palavra inteira.
+	- esc
+		- apaga uma linha inteira.
+	- ctrl + espaço
+		- retorna os parâmetros dos cmdlets.
+	

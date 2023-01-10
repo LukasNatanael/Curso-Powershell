@@ -1,0 +1,4 @@
+Estruturas de repetição - FOR
+
+	- FOR
+		for (<inicialização>; <decisão>; <incremento ou decremento>) {<código>}
